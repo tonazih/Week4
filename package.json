@@ -1,0 +1,41 @@
+{
+  "name": "es6test",
+  "version": "1.0.0",
+  "description": "This is a chance to test es6 with node 9.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhildred/es6test.git"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "problem",
+    "solving"
+  ],
+  "author": "Rich Hildred",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhildred/es6test/issues"
+  },
+  "homepage": "https://github.com/rhildred/es6test#readme",
+  "dependencies": {
+    "engine.io": "*",
+    "express": "*",
+    "socket.io": "*",
+    "twilio": "*",
+    "underscore": "*"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
