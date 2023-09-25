@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="INFO3130 Assignment 3">
+        <meta name="author" content="Pat Wilken">
+        <title>INFO3130 - Assignment 3</title>
+        <link rel="icon" type="image/png" href="favicon.ico">
+
+        <link href="main.css" rel="stylesheet" />
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="font-awesome.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <main>
+            <div id="phone-top"></div>
+            <button id="clear"><i class="fa fa-trash"></i> Clear</button>
+            <section id="message-container">
+                <ul id="messages"></ul>
+            </section>
+            <hr id="input-splitter">
+            <section id="controls">
+                <input type="text" id="msg" placeholder="Message">
+                <button id="send">
+                    <i class="fa fa-paper-plane"></i>
+                </button>
+            </section>
+            <div id="phone-bottom"></div>
+        </main>
+    </body>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-linkify/2.1.9/linkify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-linkify/2.1.9/linkify-html.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</html>
