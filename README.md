@@ -1,4 +1,4 @@
-# <a href="https://github.com/rhildred/ES6OrderBot" target="_blank">ES6 Order Bot</a>
+# <a href="https://github.com/tonazih/Week4" target="_blank">ES6 Order Bot</a>
 
 I got the user interface for the web from Pat Wilken.
 
