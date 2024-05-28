@@ -10,7 +10,7 @@ To run:
 
 ## Assignment 2
 
-Extend the order bot from assignment 1. You need to have at least 2 type of shoes . The types need to have size and one other attribute like Colour. You also need an up-sell item like Cleaner in the example.
+Extend the order bot from assignment 1. You need to have at least 2 type of jacket . The types need to have size and one other attribute like Colour. You also need an up-sell item like Cleaner in the example.
 
 For Assignment 2 you need to add paypal and a payment screen as in the scaffold.
 
@@ -19,7 +19,7 @@ For Assignment 2 you need to add paypal and a payment screen as in the scaffold.
 basic order for an item with payment in a zip (25%)
 firstName_lastName.zip (10%)
 Project directory without nesting = firstName_lastName (10%)
-2 types of shoes = (up to 10%)
+2 types of Jackets = (up to 10%)
 Upsell beside cleaner = (up to 10%)
 calculation of amount (up to 10%)
 error handling, for every input (up to 10%)
